@@ -6,7 +6,7 @@ ENV TZ="Australia/Melbourne"
 RUN \
     echo "** update and install packages **" \
     && apt-get update \
-    && apt-get install -y --no-install-recommends \
+    && apt-get install -y \
     autoconf \
     automake \
     binutils \
