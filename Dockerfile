@@ -7,23 +7,20 @@ RUN \
     echo "** update and install packages **" \
     && apt-get update \
     && apt-get install -y \
-    autoconf \
+    build-essentials \
+    autotools-dev \
     automake \
-    binutils \
-    bison \
     bsdmainutils \
-    ca-certificates \
     curl \
-    g++-8 \
-    gcc-8 \
     git \
     libtool \
-    libboost-all-dev \
+    libboost-dev \
+    libboost-system-dev \
+    libboost-filesystem-dev \
+    libboost-test-dev \
     libssl-dev \
     libevent-dev \
-    patch \
     pkg-config \
     python3 \
-    python3-pip \
     && echo "** cleanup **" \
     && rm -rvf /var/lib/apt/lists/* /tmp/* /var/tmp/*
