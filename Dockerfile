@@ -7,7 +7,7 @@ RUN \
     echo "** update and install packages **" \
     && apt-get update \
     && apt-get install -y \
-    build-essentials \
+    build-essential \
     autotools-dev \
     automake \
     bsdmainutils \
