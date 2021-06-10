@@ -11,6 +11,7 @@ RUN \
     autotools-dev \
     automake \
     bsdmainutils \
+    clang \
     curl \
     git \
     libtool \
