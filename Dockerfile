@@ -11,16 +11,13 @@ RUN \
     autotools-dev \
     automake \
     bsdmainutils \
-    clang \
     curl \
     git \
     libtool \
-    libboost-dev \
-    libboost-system-dev \
-    libboost-filesystem-dev \
-    libboost-test-dev \
+    libboost-all-dev \
     libssl-dev \
     libevent-dev \
+    libzmq3-dev \
     pkg-config \
     python3 \
     && echo "** cleanup **" \
