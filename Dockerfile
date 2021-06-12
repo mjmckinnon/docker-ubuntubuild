@@ -1,7 +1,6 @@
 FROM ubuntu:20.04
 
 ENV DEBIAN_FRONTEND="noninteractive"
-ENV TZ="Australia/Melbourne"
 
 RUN \
     echo "** update and install packages **" \
@@ -16,6 +15,7 @@ RUN \
     libtool \
     libboost-all-dev \
     libssl-dev \
+    libb2-dev \
     libevent-dev \
     libzmq3-dev \
     pkg-config \
