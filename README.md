@@ -2,7 +2,9 @@
 
 See more in the [Docker Hub](https://hub.docker.com/mjmckinnon/ubuntubuild)
 
-This is a container as a starting point for the build stage for the following projects:
+This Dockerfile defines an image which is used in the build/compile stage for several cryptocurrency docker images.
+
+It was created to support these following projects:
 
 * [docker-bitcoincore](https://github.com/mjmckinnon/docker-bitcoincore)
 * [docker-bitcoingold](https://github.com/mjmckinnon/docker-bitcoingold)
@@ -11,4 +13,7 @@ This is a container as a starting point for the build stage for the following pr
 * [docker-litecoin](https://github.com/mjmckinnon/docker-litecoin)
 * [docker-namecoin](https://github.com/mjmckinnon/docker-namecoin)
 
-This ubuntubuild image is based on Ubuntu 20.04 with some additional packages that allow compilation of these above projects which are all essentially just forks of the bitcoin core project.
+This ubuntubuild image is based on Ubuntu 22.04 and installed additional dependency packages that are required to
+allow compilation of many differnt cryptocurrency projects, many of which are related to, or are forks of Bitcoin.
+
+If you wanted to, you could use this image for compiling many other projects as well.
