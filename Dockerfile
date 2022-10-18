@@ -16,6 +16,7 @@ RUN \
     libboost-all-dev \
     libdb-dev \
     libdb++-dev \
+    libfmt-dev \
     libminiupnpc-dev \
     libgoogle-perftools-dev \
     libssl-dev \
