@@ -13,7 +13,7 @@ It was created to support these following projects:
 * [docker-litecoin](https://github.com/mjmckinnon/docker-litecoin)
 * [docker-namecoin](https://github.com/mjmckinnon/docker-namecoin)
 
-This ubuntubuild image is based on Ubuntu 22.04 and installed additional dependency packages that are required to
+This ubuntubuild image is based on Ubuntu 22.04 and includes additional dependency packages that are required to
 allow compilation of many differnt cryptocurrency projects, many of which are related to, or are forks of Bitcoin.
 
-If you wanted to, you could use this image for compiling many other projects as well.
+If you wanted to, you could potentially use this image for compiling other projects as well.
