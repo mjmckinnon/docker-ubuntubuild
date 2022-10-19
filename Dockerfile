@@ -19,6 +19,7 @@ RUN \
     libfmt-dev \
     libminiupnpc-dev \
     libgoogle-perftools-dev \
+    libsqlite3-dev \    
     libssl-dev \
     libb2-dev \
     libevent-dev \
